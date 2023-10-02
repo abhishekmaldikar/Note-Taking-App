@@ -69,29 +69,7 @@ const AllNotes = () => {
     setOpen(true);
   };
    const [open, setOpen] = useState(false);
-
-    const note =[
-        {
-        title : "hello hi dua",
-        discription : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet."
-        },
-        {
-            title : "hello hi dua",
-            discription : "Play  football and have fun"
-        },
-        {
-            title : "hello hi dua",
-            discription : "Play  football and have fun"
-        },
-        {
-            title : "hello hi dua",
-            discription : "Play  football and have fun"
-        },
-        {
-            title : "hello hi dua",
-            discription : "Play  football and have fun"
-        }
-]        
+     
 
 const fetchData = async () => {
     try {
